@@ -14,12 +14,22 @@
 
 @property (nonatomic,strong)TestClass *test;
 
+
+- (void)sayHi;
+
+
 @end
 
 @implementation ViewController
 
+- (void)sayHi{
+    NSLog(@"呵呵呵呵");
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self sayHi];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
