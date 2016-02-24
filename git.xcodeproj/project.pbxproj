@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FC3EC5D1C7D4D26007BAB2E /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EC5C1C7D4D26007BAB2E /* TestClass.m */; };
 		8FFA178A1C7D46450046DF9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA17891C7D46450046DF9F /* main.m */; };
 		8FFA178D1C7D46450046DF9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA178C1C7D46450046DF9F /* AppDelegate.m */; };
 		8FFA17901C7D46450046DF9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA178F1C7D46450046DF9F /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FC3EC5B1C7D4D26007BAB2E /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		8FC3EC5C1C7D4D26007BAB2E /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		8FFA17851C7D46450046DF9F /* git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = git.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFA17891C7D46450046DF9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FFA178B1C7D46450046DF9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				8FFA178C1C7D46450046DF9F /* AppDelegate.m */,
 				8FFA178E1C7D46450046DF9F /* ViewController.h */,
 				8FFA178F1C7D46450046DF9F /* ViewController.m */,
+				8FC3EC5B1C7D4D26007BAB2E /* TestClass.h */,
+				8FC3EC5C1C7D4D26007BAB2E /* TestClass.m */,
 				8FFA17911C7D46450046DF9F /* Main.storyboard */,
 				8FFA17941C7D46450046DF9F /* Assets.xcassets */,
 				8FFA17961C7D46450046DF9F /* LaunchScreen.storyboard */,
@@ -213,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC3EC5D1C7D4D26007BAB2E /* TestClass.m in Sources */,
 				8FFA17901C7D46450046DF9F /* ViewController.m in Sources */,
 				8FFA178D1C7D46450046DF9F /* AppDelegate.m in Sources */,
 				8FFA178A1C7D46450046DF9F /* main.m in Sources */,
@@ -404,6 +410,7 @@
 				8FFA17A91C7D46450046DF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FFA17AA1C7D46450046DF9F /* Build configuration list for PBXNativeTarget "gitTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +419,7 @@
 				8FFA17AC1C7D46450046DF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

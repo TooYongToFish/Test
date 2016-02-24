@@ -12,6 +12,8 @@
 
 @property (nonatomic,assign)NSInteger a ;
 
+@property (nonatomic,strong)TestClass *test;
+
 @end
 
 @implementation ViewController

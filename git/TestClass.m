@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestClass.m
 //  git
 //
 //  Created by 胡建波 on 16/2/24.
@@ -8,10 +8,6 @@
 
 #import "TestClass.h"
 
-#import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+@implementation TestClass
 
 @end
-
