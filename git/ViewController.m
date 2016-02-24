@@ -27,7 +27,7 @@
     NSLog(@"呵呵呵呵");
 }
 - (void)sayGoodBye{
-    NSLog(@"byebye");
+    NSLog(@"byebyeqwwq");
 }
 
 
