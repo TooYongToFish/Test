@@ -19,6 +19,7 @@
 - (void)sayHi;
 
 
+
 @end
 
 @implementation ViewController
@@ -28,6 +29,10 @@
 }
 - (void)sayGoodBye{
     NSLog(@"byebyeqwwq");
+}
+
+- (void)haha{
+    NSLog(@"哈哈");
 }
 
 
