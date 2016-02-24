@@ -14,12 +14,22 @@
 
 @property (nonatomic,strong)TestClass *test;
 
+- (void)sayGoodBye;
+
+
 @end
 
 @implementation ViewController
 
+- (void)sayGoodBye{
+    NSLog(@"goodBye");
+}
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self sayGoodBye];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
