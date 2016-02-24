@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic,assign)NSInteger a ;
+
 @end
 
 @implementation ViewController
@@ -21,6 +23,8 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    self.a = 10 + 20;
+    
     // Dispose of any resources that can be recreated.
 }
 
