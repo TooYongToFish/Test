@@ -14,6 +14,7 @@
 
 @property (nonatomic,strong)TestClass *test;
 
+- (void)sayGoodBye;
 
 - (void)sayHi;
 
@@ -27,9 +28,11 @@
 }
 
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self sayHi];
+    [self sayGoodBye];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
